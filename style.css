@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 104vh;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/assets/panoramica.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    /* height: %; */
+    width: 100%;
+    display: flex;
+    background-color: #83CF8A;
+    align-items: center;
+
+}
+
+.logo {
+    width: 20vh;
+    padding-left: 10vh;
+    margin: 5px;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+}
+
+header ul li {
+    padding-left: 30px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    height: 78%;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #83CF8A;
+}
+
+p {
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 20px;
+    transition: 0.5s;
+}
+
+p:hover {
+    color: #a7ccab;
+}
+
+button {
+    color: #000000;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 30px;
+    background: #fff;
+    margin-top: 30px;
+    transition: all 0.2 ease;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+    background-color: #ffffffb6;
+}
+
+button a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
